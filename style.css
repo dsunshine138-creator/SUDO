@@ -1,0 +1,33 @@
+.btn:hover{
+    background-color:red;
+    cursor:grab ;
+}
+.name-input:focus{
+    background-color: red;
+}
+.zeeshan-site:link {
+    color: aquamarine;
+}
+.zeeshan-site:visited {
+    color: red;
+}
+.child:nth-child(2){
+ background-color: aqua;
+}
+.title::before {
+    content: "FAHAM" ;
+}
+.title::after{
+    content: " ALI";
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    sans-serif;
+}
+
+.para::selection{
+    background-color: yellow;
+}
+.para::first-letter{
+    font-size: x-large;
+    font-weight: 900;
+}
